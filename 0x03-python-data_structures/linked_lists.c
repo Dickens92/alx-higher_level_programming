@@ -25,9 +25,9 @@ size_t print_listint(const listint_t *h)
 }
 
 /**
- * add_nodeint_end - adds a new node at the end of a listint_t list
+ * add_nodeint_end - adds a node at the end 
  * @head: pointer to pointer of first node of listint_t list
- * @n: integer to be included in new node
+ * @n: integer to be added in new node
  * Return: address of the new element or NULL if it fails
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -58,7 +58,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 /**
  * free_listint - frees a listint_t list
- * @head: pointer to list to be freed
+ * @head: pointer to free
  * Return: void
  */
 void free_listint(listint_t *head)
